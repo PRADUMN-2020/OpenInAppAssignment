@@ -78,7 +78,7 @@ const updateTask = async (req, res) => {
     } else {
       const task = await Task.findOneAndUpdate(
         { _id: taskId, user_id },
-        { $set: { due_date, status } },
+        { $set: { status } },
         { new: true }
       );
       res.json({ task });
