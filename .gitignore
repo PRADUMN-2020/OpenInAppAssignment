@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Output of 'npm pack'
+*.tgz
+
+
