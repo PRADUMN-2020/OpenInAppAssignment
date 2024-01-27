@@ -71,7 +71,7 @@ cron.schedule("0 0 * * *", async () => {
 
 // Schedule a task for voice calling using Twilio every day at 10 AM
 
-cron.schedule("48 5 * * *", async () => {
+cron.schedule("00 10 * * *", async () => {
   try {
     const users = await User.find().sort({ priority: 1 });
 
