@@ -100,7 +100,6 @@ cron.schedule("0 10 * * *", async () => {
         });
 
         console.log(`Voice call initiated for user ${user._id}: ${call.sid}`);
-        break; // Break after initiating the call for the user with the highest priority
       }
     }
   } catch (error) {
